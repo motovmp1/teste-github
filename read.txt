@@ -1,0 +1,30 @@
+🧠 Git Workflow (Colaborativo com Pull Request)
+
+🔸 1. Crie uma nova branch
+git checkout -b nome-da-sua-branch
+
+🔸 2. Faça alterações no código
+
+🔸 3. Adicione e faça commit
+git add .
+git commit -m "Mensagem descritiva do que foi feito"
+
+🔸 4. Envie a branch para o GitHub
+git push origin nome-da-sua-branch
+
+🔸 5. No GitHub
+- Crie um Pull Request
+- Faça o merge na branch main
+- Delete a branch no GitHub após o merge
+
+🔸 6. Volte para a main localmente
+git checkout main
+
+🔸 7. Atualize a main local com as mudanças (suas + dos colegas)
+git pull origin main
+
+🔸 8. Apague a branch local (opcional)
+git branch -d nome-da-sua-branch
+
+⚠️ Use -D (maiúsculo) se o Git recusar apagar por não reconhecer o merge:
+git branch -D nome-da-sua-branch
